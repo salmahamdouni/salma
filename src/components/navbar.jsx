@@ -1,18 +1,19 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/male1.png";
-import logo2 from "../img/male.png";
+import logo1 from "../img/2995914.png";
+import logo2 from "../img/2346888-200.png";
 
 class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
       logo: logo1
+      
     };
   }
-
-  componentDidMount() {
+  
+componentDidMount() {
     const nav = $("nav");
     let navHeight = nav.outerHeight();
 
@@ -90,7 +91,7 @@ class Navbar extends React.Component {
             <img
               src={this.state.logo}
               alt="logo"
-              style={{ maxWidth: "100px" }}
+              style={{ maxWidth: "150px" }}
             />
           </a>
           <button
